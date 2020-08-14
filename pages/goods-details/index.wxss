@@ -41,6 +41,21 @@ swiper-item image {
   color: #000;
   margin-bottom: 28rpx;
 }
+.goods-ext{
+  text-align: center;
+}
+.goods-ext .tags{
+  display: inline-block;
+  margin: 0 16rpx 24rpx 0;
+  padding: 0 10rpx 0 12rpx;
+  background: #777;
+  border-radius: 8rpx;
+  box-shadow: 0 1rpx 2rpx rgba(0,0,0,0.2);
+  color: #fff;
+  font-size: 10pt;
+  text-decoration: none;
+  text-shadow: 0 1rpx 2rpx rgba(0,0,0,0.2);
+}
 .goods-info .goods-share{
   box-sizing: border-box;
   padding: 0 35rpx;
@@ -62,8 +77,8 @@ swiper-item image {
    font-size: 12pt;
 }
 .goods-profile .r{
-   color:#ccc;
-   font-size: 10pt;
+   color:#aaa;
+   font-size: 12pt;
    margin-left: 30rpx;
 }
 .row-arrow {
@@ -151,9 +166,16 @@ swiper-item image {
 }
 .footer-box .shop-cart-btn .shop-num{
   position: absolute;
-  color:#e64340;
-  left: 90rpx;
-  top:0rpx;
+  color:#fff;
+  left: 80rpx;
+  top:10rpx;
+  width: 40rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  border-radius: 50%;
+  background: #e64340;
+  font-size: 24rpx;
 }
 .footer-box .join-shop-cart{
   text-align: center;
@@ -225,10 +247,19 @@ swiper-item image {
   font-size:26rpx;
   color:#000000;
 }
+.pop-goods-prices{
+  display: flex;
+}
 .pop-goods-price{
   font-size:26rpx;
   color:#e64340;
   margin-top:20rpx; 
+}
+.pop-goods-price-original{
+  font-size:26rpx;
+  color: #aaa;
+  text-decoration: line-through;
+  margin: 20rpx 15rpx 0 0;
 }
 .pop-goods-close{
   width: 36rpx;
@@ -372,4 +403,11 @@ swiper-item image {
   width:300rpx;
   height:300rpx;
   margin-top: 50rpx;
+}
+.clearfix:after{/*伪元素是行内元素 正常浏览器清除浮动方法*/
+    content: "";
+    display: block;
+    height: 0;
+    clear:both;
+    visibility: hidden;
 }

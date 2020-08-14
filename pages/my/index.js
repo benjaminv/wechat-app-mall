@@ -47,7 +47,7 @@ Page({
   aboutUs : function () {
     wx.showModal({
       title: '关于我们',
-      content: '本系统基于开源小程序商城系统 https://github.com/EastWorld/wechat-app-mall 搭建，祝大家使用愉快！',
+      content: '本薇优品海外店 Taobao同名店铺，祝大家购物愉快！BENVEE CLASSIC LIMITED built 14 Feb 2020',
       showCancel:false
     })
   },
