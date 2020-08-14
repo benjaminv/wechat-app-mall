@@ -13,7 +13,7 @@
   left: 0;
   width: 100vw;
   height: 70vh;
-  background: #fff;
+  background: #ffffff;
   z-index: 9999;
   border-radius: 32rpx 32rpx 0 0;
   display: flex;
@@ -26,7 +26,7 @@
 }
 .container-box .h text {
   font-size: 26rpx;
-  color: #666;
+  color: #666666;
 }
 .container-box .h image {
   width: 32rpx;
@@ -50,7 +50,7 @@
   flex-grow: 1;
 }
 .tabs .tab.active {
-  background: #fff;
+  background: #ffffff;
   color: #4a4a4a;
   border-bottom: 1rpx solid #f0f0f0;
   font-weight: 700;

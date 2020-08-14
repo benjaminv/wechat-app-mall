@@ -14,7 +14,7 @@ image {
   position: absolute;  
   left: 0;  
   right: 0;  
-  bottom: 50rpx;  
+  bottom: 100rpx;  
   display: flex;  
   justify-content: center;  
 }
